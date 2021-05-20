@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="third-party/jquery-ui.css" />
+    <link rel="stylesheet" href="third-party/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="third-party/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Predict Fake News</h1>
+
+      <!-- Main Input For Receiving Query to our ML -->
+
+      <div>
+        <input
+          type="text"
+          name="news"
+          placeholder="Enter the news url"
+          required="required"
+        />
+        <button id="button-submit" class="btn btn-primary btn-block btn-large">
+          Predict
+        </button>
+      </div>
+    </div>
+    <br />
+    <br/>
+    <span id="result"></span>
+    <script src="third-party/jquery3.6.min.js"></script>
+    <!-- <script src="third-party/÷-ui-1.12.1.js"></script> -->
+    <script src="popup.js"></script>
+  </body>
+</html>
